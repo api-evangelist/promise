@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.promise-pay.com/security
+url: https://www.promise-pay.com/security
+certifications:
+  - SOC 1 Type 2
+  - SOC 2 Type 2
+  - PCI DSS
+notes: >-
+  Promise publishes a data-security page (not a dedicated trust portal) stating
+  data security and integrity are core to the business, with regular third-party
+  audits validating controls for handling personal and financial data, and a
+  built-in audit trail in its data-matching processes.
+evidence:
+  - source: https://www.promise-pay.com/security
+    keywords: [soc 1 type 2, soc 2 type 2, pci, third-party audit, compliance]

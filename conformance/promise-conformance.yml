@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.promise-pay.com/security
+standards:
+  - id: soc1-type2
+    conforms: true
+    evidence: security page states SOC 1 Type 2
+  - id: soc2-type2
+    conforms: true
+    evidence: security page states SOC 2 Type 2
+  - id: pci-dss
+    conforms: true
+    evidence: security page states PCI compliant
+notes: >-
+  Compliance posture asserted from the published data-security page. No public
+  OpenAPI is available for Promise, so cross-cutting API standards (OAuth2/OIDC,
+  RFC 9457 problem details, pagination, idempotency) could not be derived.

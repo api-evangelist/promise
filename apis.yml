@@ -1,7 +1,29 @@
 aid: promise
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/promise.png
 name: Promise
-description: Promise is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Promise is a government payments and relief-technology company (backed by 8vc)
+  that provides AI-powered automation for state and local government agencies and
+  utilities. Its platform helps agencies distribute relief faster and more securely,
+  verify eligibility and income, audit programs for waste, fraud, and abuse, and
+  offer flexible, AI-driven payment plans that recover revenue. Products include
+  PromiseBenefits (relief-program distribution at scale), PromiseAudit (real-time
+  waste/fraud/abuse detection), PromiseVerified (automated income verification), and
+  PromisePay (AI-driven payment plans for utilities and government). Clients include
+  Washington State, Mississippi, WSSC Water, Louisville Water, and Richmond DPU.
+  Promise exposes no public developer API surface; this profile captures its
+  security, compliance, and web presence.
 url: https://raw.githubusercontent.com/api-evangelist/promise/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Government
+- Payments
+- GovTech
+- Relief
+- Utilities
+- Fraud Detection
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://promise-pay.com
+  url: https://www.promise-pay.com
+- type: Support
+  url: https://www.promise-pay.com/faqs
+- type: Blog
+  url: https://www.promise-pay.com/resources
+- type: TermsOfService
+  url: https://www.promise-pay.com/terms
+- type: PrivacyPolicy
+  url: https://www.promise-pay.com/privacy-policy
+- type: SecurityTxt
+  url: well-known/promise-security.txt
+- type: WellKnown
+  url: well-known/promise-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/promise-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.promise-pay.com/security
+- type: DomainSecurity
+  url: security/promise-domain-security.yml
+- type: TrustCenter
+  url: security/promise-trust-center.yml
+- type: Conformance
+  url: conformance/promise-conformance.yml
+- type: Compliance
+  url: https://www.promise-pay.com/security
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
